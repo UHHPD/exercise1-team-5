@@ -1,0 +1,8 @@
+Seems to be difficult to learn about the other members of a team. Hence
+I suggest that we introduce ourselfes here, at least with name, e-mail
+and GitHub account. Let me start:
+
+Michael Hufschmidt, michael@hufschmidt-web.de, git: MiHuf
+I am an oldie, not a real student. My main job is graandfather, but
+you can find me 1-2 days per week in the Inst. Exp. Physik in the 
+group of Erika Garutti. I write Python software for the group.
