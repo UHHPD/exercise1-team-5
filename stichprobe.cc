@@ -5,7 +5,7 @@
 
 int main() {
   int n = 0, a = 0;
-  double a_sum = 0.0, mean = 0.0, a_square = 0.0, sigma = 0.0;
+  double a_sum = 0.0, mean = 0.0, a_square = 0.0, variance, sigma;
  
   // 1. a)
   std::ifstream fin1("datensumme.txt");
@@ -24,10 +24,11 @@ int main() {
 	a_square += (a - mean) * (a - mean);
   }
   fin2.close();
-  std::cout << "Variance = " << a_square << std::endl;
+  variance = a_square / n;
+  std::cout << "Variance = " << variance << std::endl;
 
   // 1. c) 
-  sigma = sqrt(a_square);
+  sigma = sqrt(variance);
   std::cout << "Std. deviation sigma = " << sigma << std::endl;
 
   return 0;
