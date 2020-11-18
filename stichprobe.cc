@@ -8,13 +8,13 @@ int main() {
   double a_sum = 0.0, a2_sum = 0.0, mean, variance, sigma;
  
   // 1. a)
-  std::ifstream fin1("datensumme.txt");
-  while (fin1 >> a) {
+  std::ifstream fin("datensumme.txt");
+  while (fin >> a) {
     n += 1;
-	a_sum += a;
-	a2_sum += a * a;
+    a_sum += a;
+    a2_sum += a * a;
   };
-  fin1.close();
+  fin.close();
   std::cout << "Sum over " << n << " values = " << a_sum << std::endl;
   mean = a_sum / n;
   std::cout << "Mean value <a> = " << mean << std::endl;
