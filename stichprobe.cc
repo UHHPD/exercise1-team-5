@@ -1,4 +1,3 @@
-  
 // Sheet 2, Exercise 1
 #include <fstream>
 #include <iostream>
